@@ -1,4 +1,4 @@
-package ch_1_first_code;
+package apna_college.ch_1_first_code;
 
 public class HelloWorld {
     public static void main(String[] args) {

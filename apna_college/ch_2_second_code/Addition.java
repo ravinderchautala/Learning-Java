@@ -1,4 +1,4 @@
-package ch_2_second_code;
+package apna_college.ch_2_second_code;
 
 import java.util.Scanner;
 

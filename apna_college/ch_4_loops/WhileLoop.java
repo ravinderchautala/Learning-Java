@@ -1,4 +1,4 @@
-package ch_4_loops;
+package apna_college.ch_4_loops;
 
 public class WhileLoop {
     public static void main(String[] args) {

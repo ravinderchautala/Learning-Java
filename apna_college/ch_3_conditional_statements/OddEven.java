@@ -1,4 +1,4 @@
-package ch_3_conditional_statements;
+package apna_college.ch_3_conditional_statements;
 
 import java.util.Scanner;
 

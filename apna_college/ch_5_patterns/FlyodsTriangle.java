@@ -1,4 +1,4 @@
-package ch_5_patterns;
+package apna_college.ch_5_patterns;
 import java.util.*;
 
 public class FlyodsTriangle {
