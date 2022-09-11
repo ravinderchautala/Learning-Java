@@ -2,6 +2,7 @@ package apna_college.ch02_second_code;
 
 public class Variables {
     public static void main(String[] args) {
+        // variables
         String name = "Ravinder Chautala";
         double age = 25.99;
         int a = 25;
