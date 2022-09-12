@@ -1,4 +1,4 @@
-package apna_college.ch_4_loops;
+package apna_college.ch04_loops;
 
 public class ForLoop {
     public static void main(String[] args) {
