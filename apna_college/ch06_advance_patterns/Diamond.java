@@ -1,4 +1,4 @@
-package apna_college.ch_6_advance_patterns;
+package apna_college.ch06_advance_patterns;
 
 import java.util.Scanner;
 
