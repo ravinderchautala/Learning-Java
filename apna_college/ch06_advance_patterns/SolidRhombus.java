@@ -8,9 +8,12 @@ public class SolidRhombus {
             System.out.print("Enter a value: ");
             int n = sc.nextInt();
             for(int i=1;i<=n;i++){
+                // spaces
                 for(int j=1;j<=n-i;j++){
                     System.out.print(" ");
-                }for(int j=1; j<=n;j++){
+                }
+                // Stars
+                for(int j=1; j<=n;j++){
                     System.out.print("*");
                 }System.out.println(" ");
             }
