@@ -1,6 +1,4 @@
 package apna_college.ch05_patterns.homework;
-
-import java.net.SocketTimeoutException;
 import java.util.Scanner;
 
 public class NumberPyramid {
