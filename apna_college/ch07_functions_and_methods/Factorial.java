@@ -1,4 +1,4 @@
-package apna_college.ch_7_functions_and_methods;
+package apna_college.ch07_functions_and_methods;
 import java.util.*;
 public class Factorial {
     public static void factorial(int a){
