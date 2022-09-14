@@ -16,15 +16,16 @@ public class StringsBuilder {
         System.out.println(sb);
 
         // deleting string
-        sb.delete(2,4);
+        sb.delete(1,2);
         System.out.println(sb);
 
         // appending value
-        StringBuilder grt = new StringBuilder("h");
-        grt.append("e");
-        grt.append("l");
-        grt.append("l");
-        grt.append("o");
+        StringBuilder grt = new StringBuilder("V");
+        grt.append("i");
+        grt.append("n");
+        grt.append("i");
+        grt.append("t");
+        grt.append("a");
         System.out.println(grt);
     }
 }
