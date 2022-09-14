@@ -27,4 +27,5 @@ public class Compare {
             System.out.println("Strings are not equal.");
         }
     }
+    }
 }

@@ -1,4 +1,4 @@
-package apna_college.ch_13_string_builder;
+package apna_college.ch13_string_builder;
 
 import java.util.Scanner;
 
