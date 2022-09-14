@@ -1,14 +1,16 @@
-package apna_college.ch_11_two_d_array;
+package apna_college.ch11_two_d_array;
 
 import java.util.Scanner;
 
-public class TwoDArray {
+public class SearchNumberInTwoD {
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
             System.out.println("Enter number of rows:");
             int rows = sc.nextInt();
             System.out.println("Enter number of columns:");
             int cols = sc.nextInt();
+            System.out.print("Enter a number to search:");
+            int x= sc.nextInt();
             int[][] numbers= new int[rows][cols];
 
             for(int i=0;i<rows;i++){
@@ -18,9 +20,10 @@ public class TwoDArray {
             }
             for(int i=0;i<rows;i++){
                 for(int j=0;j<cols;j++){
-                    System.out.print(numbers[i][j] + " ");
+                    if(numbers[i][j]==x){
+                        System.out.println("X is at index no." +"(" + i +"," + j+ ")");
+                    }
                 }
-                System.out.println();
             }
         }
     }
