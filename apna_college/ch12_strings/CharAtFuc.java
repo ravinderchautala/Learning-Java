@@ -1,4 +1,4 @@
-package apna_college.ch_12_strings;
+package apna_college.ch12_strings;
 
 public class CharAtFuc {
     public static void main(String[] args) {
