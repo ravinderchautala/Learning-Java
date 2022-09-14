@@ -1,4 +1,4 @@
-package apna_college.ch_10_arrays;
+package apna_college.ch10_arrays;
 
 import java.util.Scanner;
 
