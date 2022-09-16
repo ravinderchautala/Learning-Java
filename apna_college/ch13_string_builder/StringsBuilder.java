@@ -12,7 +12,7 @@ public class StringsBuilder {
         // System.out.println(sb);
         
         // inserting string
-        sb.insert(2,'V');
+        sb.insert(2,'R');
         System.out.println(sb);
 
         // deleting string
