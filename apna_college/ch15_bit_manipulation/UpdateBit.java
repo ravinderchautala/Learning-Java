@@ -1,4 +1,4 @@
-package apna_college.ch_15_bit_manipulation;
+package apna_college.ch15_bit_manipulation;
 
 import java.util.Scanner;
 
