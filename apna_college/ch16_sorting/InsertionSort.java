@@ -1,4 +1,4 @@
-package apna_college.ch_16_sorting;
+package apna_college.ch16_sorting;
 
 public class InsertionSort {
     public static void printArray(int arr[]){
