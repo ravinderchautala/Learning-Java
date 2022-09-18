@@ -8,8 +8,6 @@ public class Conversion {
             System.out.print("Enter a number to convert: ");
                 int n = sc.nextInt();
                 String str ="";
-                System.out.println("Type one of (binary/bit): ");
-                String s = sc.next();
                     while(n>0){
                         str  = ((n%2==0) ? "0" : "1")+str;
                         n= n/2;
