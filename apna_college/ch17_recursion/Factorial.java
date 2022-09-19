@@ -6,8 +6,8 @@ public class Factorial {
             return 1;
         }
         int a = fac(n-1);
-         int fac = n*a;
-         return fac;
+        int fac = n*a;
+        return fac;
     }
     public static void main(String[] args) {
         int n =5;
