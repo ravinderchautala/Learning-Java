@@ -5,8 +5,7 @@ public class Factorial {
         if(n==0||n==1){
             return 1;
         }
-        int a = fac(n-1);
-        int fac = n*a;
+        int fac = n*fac(n-1);
         return fac;
     }
     public static void main(String[] args) {
