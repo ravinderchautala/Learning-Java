@@ -1,4 +1,4 @@
-package apna_college.ch18_recursion_II;
+
 
 public class Sorted {
     public static boolean isSorted(int arr[],int index){
