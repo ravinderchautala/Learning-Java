@@ -1,19 +1,19 @@
 public class CharShift {
-    public static void charShift(String str,int index,int count,String str2){
+    public static void charShift(String str,int index,int count,String str1){
         if(index==str.length()){
             for(int i=0;i<count;i++){
-                str2+='x';
+                str1+='x';
             }
-            System.out.println(str2);
+            System.out.println(str1);
             return;
         }
         char c = str.charAt(index);
         if(c=='x'){
             count++;
-            charShift(str, index+1,count, str2);
+            charShift(str, index+1,count, str1);
         }else{
-            str2+=c;
-            charShift(str, index+1,count, str2);
+            str1+=c;
+            charShift(str, index+1,count, str1);
         }
     }
     public static void main(String[] args) {
