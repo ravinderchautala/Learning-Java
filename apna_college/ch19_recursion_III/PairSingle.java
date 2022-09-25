@@ -2,10 +2,7 @@ package apna_college.ch19_recursion_III;
 
 public class PairSingle {
     public static int invite(int n){
-        if(n==0){
-            return 1;
-        }
-        if(n==1){
+        if(n<=1){
             return 1;
         }
         int sin = invite(n-1);
